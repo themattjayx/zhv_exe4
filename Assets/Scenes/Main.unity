@@ -814,7 +814,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434431948}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -822,7 +822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.033, y: -0.21}
+  m_AnchoredPosition: {x: -0.033, y: -0.036}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1434431950
@@ -845,19 +845,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Audio from:
+  m_text: 'Audio
+
+    from
 
     Zapsplat'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4c96bf3174c264f659d24b967fdfe502, type: 2}
-  m_sharedMaterial: {fileID: 657129483739866072, guid: 4c96bf3174c264f659d24b967fdfe502, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a0f4a10cf661944d3a01995d54bf6e1e, type: 2}
+  m_sharedMaterial: {fileID: -1770032592563570721, guid: a0f4a10cf661944d3a01995d54bf6e1e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289207296
-  m_fontColor: {r: 0, g: 0.10873804, b: 0.6603774, a: 1}
+    rgba: 4283239680
+  m_fontColor: {r: 0, g: 0.05031442, b: 0.3018868, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -874,19 +876,19 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.5
-  m_fontSizeBase: 2.5
+  m_fontSize: 3.2
+  m_fontSizeBase: 3.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 8
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -32
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -939,7 +941,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 657129483739866072, guid: 4c96bf3174c264f659d24b967fdfe502, type: 2}
+  - {fileID: -1770032592563570721, guid: a0f4a10cf661944d3a01995d54bf6e1e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
